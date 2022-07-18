@@ -6,6 +6,7 @@
  * I have tweaked to work in my own way:
     * This doesn't create multiple folders in google drive
     * this only exports current sheet
+    * this puts all exported sheets in a single parent folder
 */
 
 function onOpen() {
