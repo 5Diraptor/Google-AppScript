@@ -1,0 +1,7 @@
+function clearSheet(name) {
+  let SS = SpreadsheetApp.getActiveSpreadsheet()
+  let s = SS.getSheetByName(name)
+  let range = "1:"+Math.floor(s.getMaxRows())
+  let r = s.getRange(range)
+  r.clearContent()
+}
