@@ -1,6 +1,7 @@
 /*
   * Original source: https://www.labnol.org/code/20039-google-picker-with-apps-script
   * Further reference: https://developers.google.com/apps-script/samples/automations/import-csv-sheets
+  * And: https://developers.google.com/apps-script/reference/drive/file
 */
 
 function showPicker() {
