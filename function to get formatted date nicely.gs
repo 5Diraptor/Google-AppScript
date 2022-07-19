@@ -1,3 +1,8 @@
+/* 
+  * Ref: https://coderrocketfuel.com/article/convert-a-unix-timestamp-to-a-date-in-vanilla-javascript
+  * 
+*/
+
 function date(format, unix=false){
   if (!(typeof format === 'string' || format instanceof String)) {
     return "Error: invalid data passed on first parameter.  Data must be a valid UNIX timestamp";
