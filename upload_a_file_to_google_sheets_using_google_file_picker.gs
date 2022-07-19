@@ -1,3 +1,8 @@
+/*
+  * Original source: https://www.labnol.org/code/20039-google-picker-with-apps-script
+  *
+*/
+
 function showPicker() {
   var html = HtmlService.createHtmlOutput(htmlFile)
     .setWidth(1052)
