@@ -42,6 +42,8 @@ var htmlFile = `
         if (pickerApiLoaded && token) {
 
           var uplView = new google.picker.DocsUploadView()
+          
+          // See ref: https://developers.google.com/drive/picker/reference#view-id
 
           var docsView = new google.picker.DocsView()
           // var docsView = new google.picker.DocsUploadView()
